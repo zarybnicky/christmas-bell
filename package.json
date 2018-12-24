@@ -1,0 +1,12 @@
+{
+  "name": "christmas-bell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jakub Zárybnický <kubaz@inuits.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.2.1",
+    "express": "^4.16.4"
+  }
+}
