@@ -12,7 +12,7 @@ function ring(cb, n = 1) {
   }
 }
 
-app.get('/', (req, res) => res.send(`
+app.get('/', (req, res) => res.send(`<!DOCTYPE html>
 <html>
   <head><title>Christmas Bells</title></head>
   <body>
@@ -20,8 +20,7 @@ app.get('/', (req, res) => res.send(`
       <button type=submit style="width:100%;height:10em;">Ring!</button>
     </form>
   </body>
-</html>
-`));
+</html>`));
 
 app.post('/', (req, res) => ring(() => res.redirect('/'), 2));
 
